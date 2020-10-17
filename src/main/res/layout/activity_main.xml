@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dp"
+    android:id="@+id/firstLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ECEFF1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="165dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/cof1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="creamy Coffee"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="6dp"/>
+
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="2dp"
+                    android:text="(Forthy)"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="20sp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="#FF8A65"
+                    android:text="Price: $15"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="12dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="8dp"
+                    tools:ignore="RtlHardcoded">
+
+                    <Button
+                        android:id="@+id/buttonDecrement1"
+                        android:layout_width="36dp"
+                        android:layout_height="33dp"
+                        android:background="@android:color/transparent"
+                        android:onClick="decrement1"
+                        android:text="-"
+                        android:textColor="#000" />
+
+                    <TextView
+                        android:id="@+id/quantity1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:layout_marginLeft="2dp"
+                        android:textSize="18sp"
+                        tools:ignore="HardcodedText" />
+
+                    <Button
+                        android:id="@+id/buttonIncrement1"
+                        android:layout_width="36dp"
+                        android:layout_height="33dp"
+                        android:textColor="#D32F2F"
+                        android:background="@android:color/transparent"
+                        android:text="+"
+                        android:onClick="increment1"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="165dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/cof2" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Black coffee"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:layout_marginLeft="6dp"
+                    tools:ignore="HardcodedText"
+                    android:layout_marginStart="6dp" />
+
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:layout_marginTop="2dp"
+                    android:text="(Strong)"
+                    tools:ignore="HardcodedText"
+                    android:layout_marginStart="6dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="20sp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="#FF8A65"
+                    android:text="Price: $20"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="12dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="8dp">
+
+                    <Button
+                        android:id="@+id/buttonDecrement2"
+                        android:layout_width="36dp"
+                        android:layout_height="33dp"
+                        android:text="-"
+                        android:background="@android:color/transparent"
+                        android:textColor="#000"
+                        android:onClick="decrement2"/>
+                    <TextView
+                        android:id="@+id/quantity2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:layout_marginLeft="2dp"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/buttonIncrement2"
+                        android:layout_width="36dp"
+                        android:layout_height="33dp"
+                        android:textColor="#D32F2F"
+                        android:background="@android:color/transparent"
+                        android:text="+"
+                        android:onClick="increment2"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="166dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/cof3" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="51dp"
+                    android:layout_marginLeft="6dp"
+                    android:text="Cappuccino"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:layout_marginTop="2dp"
+                    android:text="(A perfect coffee)"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:textSize="20sp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="#FF8A65"
+                    android:text="Price: $10"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="12dp"
+                    android:gravity="center"
+                    android:layout_marginLeft="8dp">
+
+                    <Button
+                        android:id="@+id/buttonDecrement3"
+                        android:layout_width="36dp"
+                        android:layout_height="33dp"
+                        android:text="-"
+                        android:background="@android:color/transparent"
+                        android:textColor="#000"
+                        android:onClick="decrement3"/>
+                    <TextView
+                        android:id="@+id/quantity3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:layout_marginLeft="2dp"
+                        android:textSize="18sp" />
+
+                    <Button
+                        android:id="@+id/buttonIncrement3"
+                        android:layout_width="36dp"
+                        android:layout_height="33dp"
+                        android:textColor="#D32F2F"
+                        android:background="@android:color/transparent"
+                        android:text="+"
+                        android:onClick="increment3"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Price:"
+                android:textSize="24sp"
+                android:textColor="#2196F3"
+                android:layout_marginTop="2dp"
+                android:elevation="22dp"/>
+
+            <TextView
+                android:id="@+id/price_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$0"
+                android:textSize="22sp"
+                android:textColor="#2196F3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="6dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/relative">
+
+            <Button
+                android:id="@+id/order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ems="25"
+                android:elevation="12dp"
+                android:onClick="submitOrder"
+                android:text="Order"
+                android:textColor="#fff"
+                android:background="#000"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
